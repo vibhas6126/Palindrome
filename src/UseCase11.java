@@ -1,6 +1,6 @@
 // UC11: Object-Oriented Palindrome Service
 
-class PalindromeChecker {
+class UniquePalindromeServiceUC11 {
 
     // Method to check palindrome
     public boolean checkPalindrome(String word) {
@@ -26,8 +26,8 @@ public class UseCase11 {
 
         String input = "level";
 
-        // Create object of PalindromeChecker
-        PalindromeChecker checker = new PalindromeChecker();
+        // Create object of service class
+        UniquePalindromeServiceUC11 checker = new UniquePalindromeServiceUC11();
 
         boolean result = checker.checkPalindrome(input);
 
